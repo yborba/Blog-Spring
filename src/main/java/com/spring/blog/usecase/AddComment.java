@@ -15,7 +15,7 @@ public class AddComment {
 
     Article article;
 
-    public Article existArticle (String id){
+    private Article existArticle (String id){
         Article article = repositoryBlog.findById(id).get();
         return article;
     }
@@ -27,7 +27,6 @@ public class AddComment {
             repositoryBlog.save(article);
             return true;
         } catch (Exception e) {
-            //TODO: handle exception
             return false;
         }
     }

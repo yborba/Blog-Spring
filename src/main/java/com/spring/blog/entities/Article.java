@@ -10,7 +10,6 @@ import lombok.Setter;
 @Setter
 public class Article {
 
-    //Attributes
     private String id;
     private String title;
     private String date;
@@ -19,7 +18,6 @@ public class Article {
     private List<String> tag;
     private ArrayList<Comment> comments;    
 
-    //Constructor
     public Article(String title, String date, String author, String text, List<String> tag){
         this.id = UUID.randomUUID().toString();
         this.title = title;

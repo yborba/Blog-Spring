@@ -32,14 +32,5 @@ public class ListArticle {
             postDto.setAmountComments(post.getComments().size());
             return postDto;
         }
-
-    // public Iterable<Article> listArticle(){
-    //     try {
-    //         return repositoryBlog.findAll();
-    //     } catch (Exception e) {
-    //         //TODO: handle exception
-    //         return null;
-    //     }
-    // }
     
 }

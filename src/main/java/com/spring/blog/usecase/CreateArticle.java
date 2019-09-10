@@ -25,7 +25,6 @@ public class CreateArticle {
             }
             
         } catch (Exception e) {
-            //TODO: handle exception
             return false;
         }
     }

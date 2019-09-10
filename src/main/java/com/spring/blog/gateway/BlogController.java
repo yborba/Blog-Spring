@@ -42,8 +42,8 @@ public class BlogController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/detail")
-    public Article detailArticle (@RequestParam (value = "id") String id){
-        return detailArticle.execute(id);
+        public Article detailArticle (@RequestParam (value = "id") String id){
+            return detailArticle.execute(id);
     }
     
     @RequestMapping(method = RequestMethod.PUT, value = "/edit")

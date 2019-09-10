@@ -19,7 +19,6 @@ public class EditArticle {
                 return true;
             }return false;
         } catch (Exception e) {
-            //TODO: handle exception
             return false;
         }
     }
