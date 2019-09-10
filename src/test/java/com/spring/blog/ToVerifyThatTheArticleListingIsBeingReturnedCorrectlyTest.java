@@ -20,7 +20,7 @@ public class ToVerifyThatTheArticleListingIsBeingReturnedCorrectlyTest {
 
     @Test
     public void listAllArticle(){
-        Article detailArticleResult = detailArticle.execute("4a78a863-e3ae-4318-a456-492e50a3363a");
+        Article detailArticleResult = detailArticle.execute("4e1c2f01-cc7d-4291-b1d4-2eb4e52fb9e7");
 
         assertNotNull(detailArticleResult);
     }

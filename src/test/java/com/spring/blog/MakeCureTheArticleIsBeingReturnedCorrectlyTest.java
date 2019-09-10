@@ -22,7 +22,7 @@ public class MakeCureTheArticleIsBeingReturnedCorrectlyTest {
 
     @Test
     public void TestForArticleReturn(){
-        List<Article> detailArticleResult = (List<Article>) detailArticle.execute("4a78a863-e3ae-4318-a456-492e50a3363a");
+        List<Article> detailArticleResult = (List<Article>) detailArticle.execute("4e1c2f01-cc7d-4291-b1d4-2eb4e52fb9e7");
 
         assertTrue(detailArticleResult.size()==1);
     }

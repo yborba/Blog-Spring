@@ -19,9 +19,9 @@ public class VerifyThatTheCommentIsBeingAddedCorrectlyInTheArticleTest {
     @Autowired
     AddComment addComment;
 
-    Comment comment = new Comment("Test", "Comment to check the comment of an article", "4a78a863-e3ae-4318-a456-492e50a3363a");
+    Comment comment = new Comment("Test", "Comment to check the comment of an article", "4e1c2f01-cc7d-4291-b1d4-2eb4e52fb9e7");
 
-    Comment invalidComment = new Comment("Test", "Comment to check the comment of an article", "4a78a863-e3ae-4318-a456-492e50a3363b"); //ID nonexistent
+    Comment invalidComment = new Comment("Test", "Comment to check the comment of an article", "4e1c2f01-cc7d-4291-b1d4-2eb4e52fb9e8"); //ID nonexistent
     
     @Test
     public void testAddComment(){
